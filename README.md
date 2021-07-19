@@ -21,6 +21,12 @@ conda env create -f environment.yml
 mkdir -p data/utzappos
 ```
 
+Download the [UTZappos dataset](http://vision.cs.utexas.edu/projects/finegrained/utzap50k/) at this [link](http://vision.cs.utexas.edu/projects/finegrained/utzap50k/ut-zap50k-images-square.zip). 
+Unzip and place in `data/utzappos`. The path should be `data/utzappos/ut-zap50k-images-square`.
+
+Download the metadata from [here](http://vision.cs.utexas.edu/projects/finegrained/utzap50k/ut-zap50k-data.zip). 
+Unzip, and place the file `meta-data.csv` at the path `data/utzappos/ut-zap50k-images-square/meta-data.csv`.
+
 ## CelebA
 
 ```
