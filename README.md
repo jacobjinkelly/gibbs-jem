@@ -17,7 +17,15 @@ conda env create -f environment.yml
 
 ## UTZappos
 
+```
+mkdir -p data/utzappos
+```
+
 ## CelebA
+
+```
+mkdir -p data/celeba
+```
 
 ## BibTeX
 
