@@ -13,8 +13,6 @@ Create a conda environment with
 conda env create -f environment.yml
 ```
 
-then also install PyTorch according to the instructions [here](https://pytorch.org/).
-
 ## Data
 
 ### Splits
