@@ -48,7 +48,7 @@ Place `list_attr_celeba.txt` in `data/celeba/list_attr_celeba.txt`.
 
 # Acknowledgements
 
-Code from [Improved Contrastive Divergence](https://github.com/yilundu/improved_contrastive_divergence) was immensely helpful in development of this repository.
+Code from [Improved Contrastive Divergence](https://github.com/yilundu/improved_contrastive_divergence) was immensely helpful in development of this repository. Other acknowledgements are given in comments/docstrings in the code.
 
 # BibTeX
 
