@@ -54,6 +54,12 @@ To train a Gibbs-JEM model on UTZappos, run
 python train_joint.py --data utzappos --utzappos_drop_infreq 10 --full_test --img_size 64 --img_sigma .01 --mode cond --model poj --poj_joint --small_mlp --small_mlp_nhidden 128 --n_f 64 --multi_gpu --print_every 1 --plot_every 1 --ckpt_every 200 --return_steps 1 --plot_uncond_fresh --plot_cond_buffer --batch_size 100 --n_iters 1000000 --warmup_itrs 0 --lr 1e-4 --truncated_bp --bp 1 --ema .999 --sampling pcd --test_k 60 --test_n_steps 60 --yd_buffer reservoir --interleave --transform --utzappos_blur_transform --transform_every 60 --gibbs_k_steps 1 --test_gibbs_steps 60 --test_gibbs_k_steps 1 --test_gibbs_n_steps 1 --clamp_samples --clamp_data --clip_grad_norm .5 --k 40 --n_steps 1 --sigma .001 --step_size 1 --gibbs_steps 40 --p_y_x 0 --first_gibbs dis --temp 2 --kl .3
 ```
 
+To train a Gibbs-JEM model on CelebA, run
+
+```
+python train_joint.py --data celeba --celeba_drop_infreq 13 --full_test --img_size 64 --img_sigma .01 --unif_init_b --mode cond --model poj --poj_joint --small_mlp --small_mlp_nhidden 128 --n_f 64 --multi_gpu --print_every 1000 --plot_every 1000 --ckpt_every 200 --ckpt_recent_every 1000 --return_steps 1 --plot_uncond_fresh --plot_cond_buffer --batch_size 100 --n_iters 1000000 --warmup_itrs 0 --lr 1e-4 --lr_at 3e-5 --lr_itr_at 26000 --truncated_bp --bp 1 --ema .999 --sampling pcd --test_k 100 --test_n_steps 100 --yd_buffer replay --interleave --only_transform_buffer --transform --transform_every 10000000 --gibbs_k_steps 2 --test_gibbs_steps 50 --test_gibbs_k_steps 2 --test_gibbs_n_steps 1 --clamp_samples --clamp_data --clip_grad_norm .5 --k 40 --n_steps 1 --sigma .001 --step_size 1 --gibbs_steps 20 --p_y_x 0 --first_gibbs dis --temp 2 --kl .3
+```
+
 # BibTeX
 
 ```
