@@ -1,6 +1,9 @@
-# zero-shot
+# Gibbs-JEM
 
-Zero-shot learning with EBMs woooooo
+Code for the paper:
+
+> Jacob Kelly, Richard Zemel, Will Grathwohl. "Learning Differential Equations that are Easy to Solve." _ICML UDL_ (2021).
+> [[arxiv]](#) [[bibtex]](#bibtex)
 
 # Environment
 
