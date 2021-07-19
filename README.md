@@ -5,6 +5,10 @@ Code for the paper:
 > Jacob Kelly, Richard Zemel, Will Grathwohl. "Directly Training Joint Energy-Based Models for Conditional Synthesis and Calibrated Prediction of Multi-Attribute Data." _ICML UDL_ (2021).
 > [[arxiv]](#) [[bibtex]](#bibtex)
 
+<p align="center">
+<img align="middle" src="./assets/thumbnail.png" width="500" />
+</p>
+
 # Environment
 
 Create a conda environment with
@@ -15,26 +19,32 @@ conda env create -f environment.yml
 
 # Data
 
-### Splits
+## UTZappos
 
-Splits for the data are taken from [[1]](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly). Download this [file](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip) and extract the directory, which should be called `xlsa17`.
+Create the directory for the dataset
 
-### CUB
-
-Download the [Caltech-UCSD Birds-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) dataset [here](http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/CUB_200_2011.tgz). Extract the contents (it should be called `CUB_200_2011`) and move the folder to `data/`.  Get the class splits defined in [[1]](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) with
-
-```markdown
-cp path/where/extracted/xlsa17/data/CUB/*txt path/of/repo/data/CUB_200_2011/CUB_200_2011/
+```
+mkdir -p data/utzappos
 ```
 
-Different splits are implemented by creating aliases. To create these aliases run
+Download the [UTZappos dataset](http://vision.cs.utexas.edu/projects/finegrained/utzap50k/) at this [link](http://vision.cs.utexas.edu/projects/finegrained/utzap50k/ut-zap50k-images-square.zip). 
+Unzip and place in `data/utzappos`. The path should be `data/utzappos/ut-zap50k-images-square`.
 
-```markdown
-$ pwd
-path/of/repo
-$ cd utils
-$ python cub.py
+Download the metadata from [here](http://vision.cs.utexas.edu/projects/finegrained/utzap50k/ut-zap50k-data.zip). 
+Unzip, and place the file `meta-data.csv` at the path `data/utzappos/ut-zap50k-images-square/meta-data.csv`.
+
+## CelebA
+
+Create the directory for the dataset
+
 ```
+mkdir -p data/celeba
+```
+
+Download the [CelebA dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) at this [link](https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing&resourcekey=0-dYn9z10tMJOBAkviAcfdyQ). Unzip and place in `data/celeba`. The path should be `data/celeba/img_align_celeba`.
+
+Download the metadata [here](https://drive.google.com/file/d/0B7EVK8r0v71pblRyaVFSWGxPY0U/view?usp=sharing&resourcekey=0-YW2qIuRcWHy_1C2VaRGL3Q). 
+Place `list_attr_celeba.txt` in `data/celeba/list_attr_celeba.txt`.
 
 ## BibTeX
 
