@@ -1,4 +1,4 @@
-name: zero-shot
+name: gibbs-jem
 channels:
   - pytorch
   - conda-forge
@@ -11,3 +11,4 @@ dependencies:
   - scipy
   - matplotlib
   - scikit-learn
+  - kornia
