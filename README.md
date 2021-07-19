@@ -37,7 +37,7 @@ Create the directory for the dataset
 mkdir -p data/celeba
 ```
 
-Download the [CelebA dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) at this [link][https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing&resourcekey=0-dYn9z10tMJOBAkviAcfdyQ]. Unzip and place in `data/celeba`. The path should be `data/celeba/img_align_celeba`.
+Download the [CelebA dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) at this [link](https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?usp=sharing&resourcekey=0-dYn9z10tMJOBAkviAcfdyQ). Unzip and place in `data/celeba`. The path should be `data/celeba/img_align_celeba`.
 
 Download the metadata [here](https://drive.google.com/file/d/0B7EVK8r0v71pblRyaVFSWGxPY0U/view?usp=sharing&resourcekey=0-YW2qIuRcWHy_1C2VaRGL3Q). 
 Place `list_attr_celeba.txt` in `data/celeba/list_attr_celeba.txt`.
