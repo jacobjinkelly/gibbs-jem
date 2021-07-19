@@ -2,7 +2,7 @@
 
 Code for the paper:
 
-> Jacob Kelly, Richard Zemel, Will Grathwohl. "Learning Differential Equations that are Easy to Solve." _ICML UDL_ (2021).
+> Jacob Kelly, Richard Zemel, Will Grathwohl. "Directly Training Joint Energy-Based Models for Conditional Synthesis and Calibrated Prediction of Multi-Attribute Data." _ICML UDL_ (2021).
 > [[arxiv]](#) [[bibtex]](#bibtex)
 
 # Environment
