@@ -49,7 +49,7 @@ Place `list_attr_celeba.txt` in `data/celeba/list_attr_celeba.txt`.
 # BibTeX
 
 ```
-@inproceedings{kelly2021gibbsjem,
+@article{kelly2021gibbsjem,
   title={Directly Training Joint Energy-Based Models for Conditional Synthesis and Calibrated Prediction of Multi-Attribute Data},
   author={Kelly, Jacob and Zemel, Richard and Grathwohl, Will},
   journal={arXiv preprint arXiv:2107.#},
