@@ -46,7 +46,11 @@ Download the [CelebA dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 Download the metadata [here](https://drive.google.com/file/d/0B7EVK8r0v71pblRyaVFSWGxPY0U/view?usp=sharing&resourcekey=0-YW2qIuRcWHy_1C2VaRGL3Q). 
 Place `list_attr_celeba.txt` in `data/celeba/list_attr_celeba.txt`.
 
-## BibTeX
+# Acknowledgements
+
+Code from [Improved Contrastive Divergence](https://github.com/yilundu/improved_contrastive_divergence) was immensely helpful in development of this repository.
+
+# BibTeX
 
 ```
 @inproceedings{kelly2021gibbsjem,
