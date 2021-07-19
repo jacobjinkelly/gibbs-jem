@@ -13,7 +13,7 @@ Create a conda environment with
 conda env create -f environment.yml
 ```
 
-## Data
+# Data
 
 ### Splits
 
@@ -34,4 +34,15 @@ $ pwd
 path/of/repo
 $ cd utils
 $ python cub.py
+```
+
+## BibTeX
+
+```
+@inproceedings{kelly2021gibbsjem,
+  title={Directly Training Joint Energy-Based Models for Conditional Synthesis and Calibrated Prediction of Multi-Attribute Data},
+  author={Kelly, Jacob and Zemel, Richard and Grathwohl, Will},
+  journal={arXiv preprint arXiv:2107.#},
+  year={2021}
+}
 ```
