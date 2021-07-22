@@ -3,7 +3,7 @@
 Code for the paper:
 
 > Jacob Kelly, Richard Zemel, Will Grathwohl. "Directly Training Joint Energy-Based Models for Conditional Synthesis and Calibrated Prediction of Multi-Attribute Data." _ICML UDL_ (2021).
-> [[arxiv]](#) [[bibtex]](#bibtex)
+> [[paper]](http://www.gatsby.ucl.ac.uk/~balaji/udl2021/accepted-papers/UDL2021-paper-083.pdf) [[bibtex]](#bibtex)
 
 <p align="center">
 <img align="middle" src="./assets/thumbnail.png" width="500" />
