@@ -63,10 +63,10 @@ python train_joint.py --data celeba --celeba_drop_infreq 13 --full_test --img_si
 # BibTeX
 
 ```
-@inproceedings{kelly2021gibbsjem,
+@article{kelly2021gibbsjem,
   title={Directly Training Joint Energy-Based Models for Conditional Synthesis and Calibrated Prediction of Multi-Attribute Data},
   author={Kelly, Jacob and Zemel, Richard and Grathwohl, Will},
-  booktitle={ICML 2021 Workshop on Uncertainty & Robustness in Deep Learning},
+  journal={arXiv preprint arXiv:2108.04227},
   year={2021}
 }
 ```
